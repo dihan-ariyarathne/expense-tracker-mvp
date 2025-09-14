@@ -50,6 +50,7 @@ A simple web application for tracking personal income and expenses with analytic
 - **Authentication**: Flask-Login
 - **Frontend**: Bootstrap 5 + Chart.js
 - **Security**: Password hashing with Werkzeug
+- **Currency**: Sri Lankan Rupees (LKR)
 
 ## Database Schema
 

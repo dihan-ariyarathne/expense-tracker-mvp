@@ -18,7 +18,7 @@
             <div class="card-body">
                 <h5 class="card-title text-muted">Current Balance</h5>
                 <h2 class="card-text {% if current_balance >= 0 %}balance-positive{% else %}balance-negative{% endif %}">
-                    ${{ "%.2f"|format(current_balance) }}
+                    Rs. {{ "%.2f"|format(current_balance) }}
                 </h2>
             </div>
         </div>
@@ -27,7 +27,7 @@
         <div class="card text-center">
             <div class="card-body">
                 <h5 class="card-title text-success">Today's Income</h5>
-                <h2 class="card-text text-success">${{ "%.2f"|format(today_income) }}</h2>
+                <h2 class="card-text text-success">Rs. {{ "%.2f"|format(today_income) }}</h2>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
         <div class="card text-center">
             <div class="card-body">
                 <h5 class="card-title text-danger">Today's Expenses</h5>
-                <h2 class="card-text text-danger">${{ "%.2f"|format(today_expense) }}</h2>
+                <h2 class="card-text text-danger">Rs. {{ "%.2f"|format(today_expense) }}</h2>
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
                 {% if last_transaction %}
                 <p class="card-text">
                     <strong>{{ last_transaction.t_type.title() }}</strong><br>
-                    <small class="text-muted">{{ last_transaction.category }} - ${{ "%.2f"|format(last_transaction.amount) }}</small>
+                    <small class="text-muted">{{ last_transaction.category }} - Rs. {{ "%.2f"|format(last_transaction.amount) }}</small>
                 </p>
                 {% else %}
                 <p class="card-text text-muted">No transactions yet</p>

@@ -9,62 +9,62 @@ expense_categories = ['Food', 'Travel', 'Rent', 'Utilities', 'Entertainment', 'H
 # Sample transaction data
 sample_transactions = [
     # Income transactions
-    {'type': 'income', 'category': 'Salary', 'amount': 3500.00, 'note': 'Monthly salary'},
-    {'type': 'income', 'category': 'Freelance', 'amount': 450.00, 'note': 'Web development project'},
-    {'type': 'income', 'category': 'Gifts', 'amount': 100.00, 'note': 'Birthday gift from family'},
+    {'type': 'income', 'category': 'Salary', 'amount': 150000.00, 'note': 'Monthly salary'},
+    {'type': 'income', 'category': 'Freelance', 'amount': 25000.00, 'note': 'Web development project'},
+    {'type': 'income', 'category': 'Gifts', 'amount': 5000.00, 'note': 'Birthday gift from family'},
     
     # Food expenses (multiple entries)
-    {'type': 'expense', 'category': 'Food', 'amount': 25.50, 'note': 'Grocery shopping'},
-    {'type': 'expense', 'category': 'Food', 'amount': 15.75, 'note': 'Lunch at restaurant'},
-    {'type': 'expense', 'category': 'Food', 'amount': 8.99, 'note': 'Coffee and pastry'},
-    {'type': 'expense', 'category': 'Food', 'amount': 45.20, 'note': 'Weekly groceries'},
-    {'type': 'expense', 'category': 'Food', 'amount': 32.10, 'note': 'Dinner with friends'},
-    {'type': 'expense', 'category': 'Food', 'amount': 12.50, 'note': 'Fast food lunch'},
-    {'type': 'expense', 'category': 'Food', 'amount': 28.75, 'note': 'Weekend brunch'},
-    {'type': 'expense', 'category': 'Food', 'amount': 18.90, 'note': 'Takeout dinner'},
-    {'type': 'expense', 'category': 'Food', 'amount': 22.30, 'note': 'Grocery store'},
-    {'type': 'expense', 'category': 'Food', 'amount': 14.25, 'note': 'Office lunch'},
+    {'type': 'expense', 'category': 'Food', 'amount': 2500.00, 'note': 'Grocery shopping'},
+    {'type': 'expense', 'category': 'Food', 'amount': 1200.00, 'note': 'Lunch at restaurant'},
+    {'type': 'expense', 'category': 'Food', 'amount': 450.00, 'note': 'Coffee and pastry'},
+    {'type': 'expense', 'category': 'Food', 'amount': 3500.00, 'note': 'Weekly groceries'},
+    {'type': 'expense', 'category': 'Food', 'amount': 2800.00, 'note': 'Dinner with friends'},
+    {'type': 'expense', 'category': 'Food', 'amount': 800.00, 'note': 'Fast food lunch'},
+    {'type': 'expense', 'category': 'Food', 'amount': 2200.00, 'note': 'Weekend brunch'},
+    {'type': 'expense', 'category': 'Food', 'amount': 1500.00, 'note': 'Takeout dinner'},
+    {'type': 'expense', 'category': 'Food', 'amount': 1800.00, 'note': 'Grocery store'},
+    {'type': 'expense', 'category': 'Food', 'amount': 900.00, 'note': 'Office lunch'},
     
     # Transportation expenses
-    {'type': 'expense', 'category': 'Transportation', 'amount': 45.00, 'note': 'Gas fill-up'},
-    {'type': 'expense', 'category': 'Transportation', 'amount': 12.50, 'note': 'Uber ride'},
-    {'type': 'expense', 'category': 'Transportation', 'amount': 8.75, 'note': 'Public transport'},
-    {'type': 'expense', 'category': 'Transportation', 'amount': 35.00, 'note': 'Gas station'},
-    {'type': 'expense', 'category': 'Transportation', 'amount': 15.00, 'note': 'Parking fee'},
-    {'type': 'expense', 'category': 'Transportation', 'amount': 25.00, 'note': 'Taxi ride'},
+    {'type': 'expense', 'category': 'Transportation', 'amount': 8000.00, 'note': 'Gas fill-up'},
+    {'type': 'expense', 'category': 'Transportation', 'amount': 500.00, 'note': 'Uber ride'},
+    {'type': 'expense', 'category': 'Transportation', 'amount': 150.00, 'note': 'Public transport'},
+    {'type': 'expense', 'category': 'Transportation', 'amount': 6000.00, 'note': 'Gas station'},
+    {'type': 'expense', 'category': 'Transportation', 'amount': 300.00, 'note': 'Parking fee'},
+    {'type': 'expense', 'category': 'Transportation', 'amount': 800.00, 'note': 'Taxi ride'},
     
     # Entertainment expenses
-    {'type': 'expense', 'category': 'Entertainment', 'amount': 15.99, 'note': 'Netflix subscription'},
-    {'type': 'expense', 'category': 'Entertainment', 'amount': 45.00, 'note': 'Movie tickets'},
-    {'type': 'expense', 'category': 'Entertainment', 'amount': 25.50, 'note': 'Concert ticket'},
-    {'type': 'expense', 'category': 'Entertainment', 'amount': 12.00, 'note': 'Spotify Premium'},
-    {'type': 'expense', 'category': 'Entertainment', 'amount': 35.00, 'note': 'Bowling with friends'},
+    {'type': 'expense', 'category': 'Entertainment', 'amount': 1200.00, 'note': 'Netflix subscription'},
+    {'type': 'expense', 'category': 'Entertainment', 'amount': 2000.00, 'note': 'Movie tickets'},
+    {'type': 'expense', 'category': 'Entertainment', 'amount': 3500.00, 'note': 'Concert ticket'},
+    {'type': 'expense', 'category': 'Entertainment', 'amount': 800.00, 'note': 'Spotify Premium'},
+    {'type': 'expense', 'category': 'Entertainment', 'amount': 2500.00, 'note': 'Bowling with friends'},
     
     # Shopping expenses
-    {'type': 'expense', 'category': 'Shopping', 'amount': 89.99, 'note': 'New shirt'},
-    {'type': 'expense', 'category': 'Shopping', 'amount': 125.50, 'note': 'Online purchase'},
-    {'type': 'expense', 'category': 'Shopping', 'amount': 45.00, 'note': 'Books'},
-    {'type': 'expense', 'category': 'Shopping', 'amount': 75.25, 'note': 'Electronics'},
-    {'type': 'expense', 'category': 'Shopping', 'amount': 32.99, 'note': 'Household items'},
+    {'type': 'expense', 'category': 'Shopping', 'amount': 3500.00, 'note': 'New shirt'},
+    {'type': 'expense', 'category': 'Shopping', 'amount': 8500.00, 'note': 'Online purchase'},
+    {'type': 'expense', 'category': 'Shopping', 'amount': 2500.00, 'note': 'Books'},
+    {'type': 'expense', 'category': 'Shopping', 'amount': 15000.00, 'note': 'Electronics'},
+    {'type': 'expense', 'category': 'Shopping', 'amount': 1800.00, 'note': 'Household items'},
     
     # Utilities
-    {'type': 'expense', 'category': 'Utilities', 'amount': 120.50, 'note': 'Electricity bill'},
-    {'type': 'expense', 'category': 'Utilities', 'amount': 45.75, 'note': 'Water bill'},
-    {'type': 'expense', 'category': 'Utilities', 'amount': 85.00, 'note': 'Internet bill'},
-    {'type': 'expense', 'category': 'Utilities', 'amount': 65.25, 'note': 'Phone bill'},
+    {'type': 'expense', 'category': 'Utilities', 'amount': 8500.00, 'note': 'Electricity bill'},
+    {'type': 'expense', 'category': 'Utilities', 'amount': 1200.00, 'note': 'Water bill'},
+    {'type': 'expense', 'category': 'Utilities', 'amount': 3500.00, 'note': 'Internet bill'},
+    {'type': 'expense', 'category': 'Utilities', 'amount': 2500.00, 'note': 'Phone bill'},
     
     # Healthcare
-    {'type': 'expense', 'category': 'Healthcare', 'amount': 25.00, 'note': 'Pharmacy'},
-    {'type': 'expense', 'category': 'Healthcare', 'amount': 150.00, 'note': 'Doctor visit'},
-    {'type': 'expense', 'category': 'Healthcare', 'amount': 35.50, 'note': 'Prescription medication'},
+    {'type': 'expense', 'category': 'Healthcare', 'amount': 1200.00, 'note': 'Pharmacy'},
+    {'type': 'expense', 'category': 'Healthcare', 'amount': 5000.00, 'note': 'Doctor visit'},
+    {'type': 'expense', 'category': 'Healthcare', 'amount': 1800.00, 'note': 'Prescription medication'},
     
     # Travel
-    {'type': 'expense', 'category': 'Travel', 'amount': 250.00, 'note': 'Weekend trip'},
-    {'type': 'expense', 'category': 'Travel', 'amount': 180.00, 'note': 'Hotel booking'},
-    {'type': 'expense', 'category': 'Travel', 'amount': 95.00, 'note': 'Train ticket'},
+    {'type': 'expense', 'category': 'Travel', 'amount': 15000.00, 'note': 'Weekend trip'},
+    {'type': 'expense', 'category': 'Travel', 'amount': 12000.00, 'note': 'Hotel booking'},
+    {'type': 'expense', 'category': 'Travel', 'amount': 2500.00, 'note': 'Train ticket'},
     
     # Rent (if applicable)
-    {'type': 'expense', 'category': 'Rent', 'amount': 1200.00, 'note': 'Monthly rent'},
+    {'type': 'expense', 'category': 'Rent', 'amount': 45000.00, 'note': 'Monthly rent'},
 ]
 
 def add_sample_data():
