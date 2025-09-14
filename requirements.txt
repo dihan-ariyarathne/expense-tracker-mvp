@@ -1,0 +1,7 @@
+flask
+flask-login
+itsdangerous
+jinja2
+werkzeug
+python-dateutil
+pytest
